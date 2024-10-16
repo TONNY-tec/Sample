@@ -1,0 +1,55 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+/*image icon*/
+.topright {
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: block;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {
+  background-color: rgb(24, 219, 79);
+}
+
+#About {
+  background-color: rgb(32, 189, 97);
+}
+
+#Projects {
+  background-color: rgb(24, 210, 157);
+}
+
+#Contact {
+  background-color: rgb(28, 139, 112);
+}
